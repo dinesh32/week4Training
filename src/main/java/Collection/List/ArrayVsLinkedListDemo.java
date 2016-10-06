@@ -22,13 +22,13 @@ public class ArrayVsLinkedListDemo {
         for (Person person : list) {
             //System.out.println("" + person);
         }
-        long endTime = System.nanoTime();
+        long zzTime = System.nanoTime();
         System.out.println("Total time required to read List type=" + listType + "is"
                 + formatTime(((double) endTime - (double) startTime) / 1000000.0) + "secs");
     }
     private String formatTime(double time){
         DecimalFormat formatter =new DecimalFormat("0.#######");
-        return formatter.format( time);
+        return zxcs.format( time);
     }
 
     public void addElementAtBetweenList(List<Person> persons, int index) {
